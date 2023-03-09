@@ -1,2 +1,16 @@
-# go-mitm-demo
-mitm实现demo：两种方式goproxy or 参考hetty
+# go-mitm
+
+实现 mitm：
+
+1. goproxy
+2. hetty
+
+两种方式任选其一。
+
+场景：
+
+- mimt 依赖库
+- 实现单任务与监听端口绑定
+- 任务结束后可控制该端口释放
+
+目前仅为测试使用，未经过生产环境大规模测试
